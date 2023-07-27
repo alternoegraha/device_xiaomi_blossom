@@ -27,4 +27,9 @@ def OTA_InstallEnd(info):
   AddImage(info, "vbmeta_system.img", "/dev/block/platform/bootdevice/by-name/vbmeta_system")
   AddImage(info, "vbmeta_vendor.img", "/dev/block/platform/bootdevice/by-name/vbmeta_vendor")
   AddImage(info, "dtbo.img", "/dev/block/platform/bootdevice/by-name/dtbo")
+  info.script.Print("Thanks for using the ROM!")
+  info.script.Print("Sushrut1101 for his original 64bit work")
+  info.script.Print("Sad_Yurri for his original opensource tree")
+  info.script.Print("snnbyyds for building the ROM and small")
+  info.script.Print("contributions")
   return
